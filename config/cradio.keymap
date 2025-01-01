@@ -58,10 +58,10 @@
 
         default_layer {
             bindings = <
-&kp Q        &kp D            &kp R  &kp W  &kp B    &kp J  &kp F  &kp U      &kp P       &kp SEMICOLON
-&kp A        &kp S            &kp H  &kp T  &kp G    &kp Y  &kp N  &kp E      &kp O       &kp I
-&mt LSHFT Z  &kp X            &kp M  &kp C  &kp V    &kp K  &kp L  &kp COMMA  &kp PERIOD  &mt RSHFT SLASH
-&kp SPACE    &mt LCTRL ENTER                                                  &mo 1       &kp BACKSPACE
+&kp Q        &kp D  &kp R  &kp W      &kp B              &kp J  &kp F           &kp U      &kp P       &kp SEMICOLON
+&kp A        &kp S  &kp H  &kp T      &kp G              &kp Y  &kp N           &kp E      &kp O       &kp I
+&mt LSHFT Z  &kp X  &kp M  &kp C      &kp V              &kp K  &kp L           &kp COMMA  &kp PERIOD  &mt RSHFT SLASH
+                           &kp SPACE  &mt LCTRL ENTER    &mo 1  &bt BT_CLR_ALL
             >;
         };
 
@@ -70,7 +70,7 @@
 &kp N1          &kp N2            &kp N3          &kp N4                &kp N5       &kp N6     &kp N7                 &kp N8           &kp N9             &kp N0
 &kp SQT         &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp MINUS    &kp PLUS   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp EXCLAMATION
 &kp LEFT_SHIFT  &kp BACKSPACE     &kp EQUAL       &kp AMPERSAND         &kp GRAVE    &kp MINUS  &kp PIPE               &trans           &trans             &mt RIGHT_SHIFT BACKSLASH
-&trans          &mo 2                                                                                                                   &trans             &trans
+                                                  &trans                &mo 2        &trans     &trans
             >;
         };
 
@@ -79,7 +79,7 @@
 &kp F1    &kp F2    &kp F3     &kp F4     &kp F5      &kp F6    &kp F7    &kp F8        &kp F9     &kp F10
 &kp LALT  &kp LGUI  &kp LCTRL  &kp LSHFT  &kp SEMI    &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp RA(TAB)
 &none     &none     &trans     &trans     &trans      &trans    &trans    &trans        &trans     &trans
-&trans    &trans                                                                        &mo 3      &trans
+                               &trans     &trans      &mo 3     &trans
             >;
         };
 
@@ -88,7 +88,7 @@
 &bt BT_SEL 1    &bt BT_SEL 2  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans
 &sk LALT        &sk LGUI      &sk LCTRL  &sk LSHFT  &trans    &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR_ALL  &trans        &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans
-&trans          &trans                                                                &trans  &trans
+                                         &trans     &trans    &trans  &trans
             >;
         };
     };
